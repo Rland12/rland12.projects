@@ -1,1 +1,1 @@
-# http://rland12.github.io
+# rland12.github.io
