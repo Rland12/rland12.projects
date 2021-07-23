@@ -1,0 +1,162 @@
+body{
+    margin:0;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+nav{
+    width:100%;
+}
+nav ul{
+    margin:0;
+    text-align: center;
+    background-color:black;
+}
+nav li{
+    display: inline-block;
+    padding:15px;
+    list-style:none;
+}
+
+nav li:hover{
+    background-color:rgb(9, 122, 126);
+}
+
+h1{
+    text-align: center;
+    padding:2%;
+    margin: 0;
+}
+.info{
+    background-color: rgb(12, 127, 180);
+    width:100%;
+    overflow: hidden;
+    height:auto;
+}
+.art{
+    text-align: center;
+    background-color: rgb(12, 127, 180);
+    width:100%;
+}
+figure{
+    margin: 0;
+}
+.column{
+    display: inline-block;
+    margin-bottom: 5%;
+}
+
+.middle{
+    overflow: hidden;
+    width:30%;
+    height:200px;
+    border:1px solid orangered;
+    font-size: 20px;
+    text-align: center;
+    margin: 17px;
+}
+.middle p{
+    display: block;
+    margin: 0 auto;
+    padding:5%;
+}
+.info p{
+    padding: 2%;
+}
+.about p{
+    padding:3%;
+    color:black;
+}
+.events{
+    text-align: center;
+    background-color: rgb(12, 127, 180);
+    width:100%;
+}
+.events .middle{
+    height:211.48px;
+}
+/* .events div{
+    width:30%;
+} */
+ p{
+     color: white;
+     font-size: 20px;
+    text-align: justify;
+}
+ .info img{
+    width:25%;
+    border:1px solid black;
+    border-radius:12px;
+}
+.img-left{
+    float: left;
+    margin: 5px;
+}
+.img-right{
+    float: right;
+    margin: 5px;
+}
+h2{
+    text-align: center;
+}
+.cost{
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 25px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0;
+}
+tbody td, tfoot th {
+    border-top: 1px solid #ddd;
+}
+th{
+    background-color: rgb(12, 127, 180);
+    padding:7px;
+}
+
+input[type=email] {
+    width: 20%;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+textarea{
+    width: 20%;
+    padding: 15px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit] {
+    width: 20%;
+    background-color:aqua;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+.phone{
+    width:50%;
+    margin:auto
+
+}
+.phone img{
+    padding:4px;
+    width:15%;
+    vertical-align: middle;
+}
+
+.contact{
+    background-color:black;
+    overflow: hidden;
+}
+.contact h2{
+    color:white;
+}
+
