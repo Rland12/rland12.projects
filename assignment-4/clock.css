@@ -1,0 +1,46 @@
+div{
+    text-align: center;
+}
+.clock{
+    width:40%;
+    display:block;
+    margin:auto;
+}
+.minute{
+    transform: rotate(90deg);
+    transform-origin: 2%;
+    animation:minute 20s;
+    animation-fill-mode: forwards;
+}
+.hour{
+    transform: rotate(0deg);
+    transform-origin: 2%;
+    animation:hour 20s;
+    animation-fill-mode: forwards;
+}
+.hand{
+    top:30%;
+    right:35.2%;
+    width:15%;
+    position:absolute;
+}
+@keyframes minute{
+    0%{transform: rotate(100deg);}
+    20%{transform: rotate(110deg);}
+    40%{transform: rotate(120deg);}
+    60%{transform: rotate(130deg);}
+    70%{transform: rotate(140deg);}
+    80%{transform: rotate(150deg);}
+    90%{transform: rotate(160deg);}
+    100%{transform: rotate(170deg);}
+}
+@keyframes hour{
+    0%{transform: rotate(0deg);}
+    20%{transform: rotate(0deg);}
+    40%{transform: rotate(0deg);}
+    60%{transform: rotate(10deg);}
+    70%{transform: rotate(20deg);}
+    80%{transform: rotate(30deg);}
+    90%{transform: rotate(40deg);}
+    100%{transform: rotate(50deg);}
+}
