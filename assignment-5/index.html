@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rashad Assignment 5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="mod1">
+            <img src="https://picsum.photos/200/300" alt="">
+            <a href="#popup1" class="button">Modal Link 1</a>
+        </div>
+    
+        <div class="mod2">
+            <img src="https://i.picsum.photos/id/385/200/300.jpg?hmac=IG8cHDliDmlgbSYX1yquX_5cAHcuS_O378oPs5rZGrU" alt="">
+            <a href="#popup2" class="button">Modal Link 2</a>
+        </div>
+    </div>
+    
+    <div id="popup1" class="overlay">
+        <a class="cancel" href="#">close</a>
+        <div class="popup">
+            <h2>Modal Window 1</h2>
+            <div class="content">
+          <p>This is a random image that changes once the page reloads</p>
+            </div>
+            <img src="https://picsum.photos/200/300" alt="">
+        </div>
+    </div>
+
+    <div id="popup2" class="overlay light">
+        <div class="popup">
+            <h2>Modal Window 2</h2>
+            <a class="close" href="#">&times;</a>
+            <div class="content">
+                <p>This is a static picure of the vast open sea!</p>
+            </div>
+            <img src="https://i.picsum.photos/id/385/200/300.jpg?hmac=IG8cHDliDmlgbSYX1yquX_5cAHcuS_O378oPs5rZGrU" alt="">
+        </div>
+    </div>
+</body>
+</html>
