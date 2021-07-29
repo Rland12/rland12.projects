@@ -1,0 +1,10 @@
+.p-2 img{
+    width:50%;
+}
+.thumb img{
+    width:32%;
+}
+li a:hover{
+    background-color:white;
+    border-radius: 12px;
+}
