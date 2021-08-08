@@ -248,6 +248,7 @@ overflow: auto;
     color:white;
     height:250px;
     padding-top:2%;
+    text-align:center;
 }
 
 .menu{
@@ -279,4 +280,3 @@ li{
   .social-media img{
     width:15%;
   }
-  
