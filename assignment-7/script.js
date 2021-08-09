@@ -23,9 +23,6 @@ if(Lbmi>Jbmi){
     console.log(`John's BMI (${Jbmi.toFixed(1)}) is higher than Lucas BMI (${Lbmi.toFixed(1)})`);
 };
 
-console.log(Jbmi);
-console.log(Lbmi);
-
 /*Team Score*/
 nets_Scores=(97+112+101)/3;
 knicks_Scores=(109+95+106)/3;
