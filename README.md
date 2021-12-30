@@ -1,1 +1,1 @@
-# http://rland12.github.io
+# micro credentials practice projects
